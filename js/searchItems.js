@@ -5,8 +5,7 @@ var SearchItems = Backbone.Collection.extend({
 	// gets text input value on search div
 	query: $("#search").val(),
 
-	// parse help from:
-	// http://stackoverflow.com/questions/30968949/backbone-js-collection-fetch-not-setting-response-objects-as-models
+	
 	parse: function(response){
 		return _.map(response.hits, function(model){
 			return model;
@@ -21,4 +20,3 @@ var SearchItems = Backbone.Collection.extend({
 	}
 
 });
-

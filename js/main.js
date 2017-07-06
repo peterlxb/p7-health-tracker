@@ -1,8 +1,4 @@
-// I have used this course as a helper since I was new to Backbone
-// https://www.udemy.com/backbonejs-tutorial/learn/#/
 
-// Events help from
-// https://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/
 var App = App || {};
 
 App.selectedItem = {};
@@ -86,19 +82,18 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
-	// squares div for search results list
+
 	App.squareSearchList();
 });
 
 $(window).resize(function() {
-	// squares div for search results list
+
 	App.squareSearchList();
 });
 
-// squares div for search results list
+
 App.squareSearchList = function(){
-	// search items list div 1:1 proportion help from:
-	// http://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout
+
   	var width = $('.results').width();
 	$('.results').css({'height':width + 'px'});
 }

@@ -69,8 +69,7 @@ var SearchItemsView = Backbone.View.extend({
 		// gets value entered on text input
 		this.model.query = $("#query").val();
 
-		// error handling help from:
-		// http://monicalent.com/blog/2013/07/29/using-a-custom-event-to-detect-fetch-errors-in-backbone-js/
+
 		this.model.fetch({
 			reset: true,
 			success: function(data){
@@ -82,8 +81,6 @@ var SearchItemsView = Backbone.View.extend({
 		});
 	},
 
-	// hides '#nutritional' div
-	// http://stackoverflow.com/questions/12353741/how-to-check-if-a-div-is-visible-state-or-not
 	hideSearchResults: function(){
 		if($('.results').is(':visible')){
 			$('.results').toggle();

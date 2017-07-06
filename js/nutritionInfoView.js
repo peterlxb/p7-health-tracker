@@ -27,8 +27,7 @@ var NutritionInfoView = Backbone.View.extend({
 		App.events.trigger("addtoeaten:event");
 	},
 
-	// hides '#nutritional' div
-	// http://stackoverflow.com/questions/12353741/how-to-check-if-a-div-is-visible-state-or-not
+	
 	hideNutritional: function(){
 		if(this.$el.is(':visible')){
 			this.$el.toggle();
