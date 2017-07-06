@@ -1,0 +1,171 @@
+
+.ud-search-input {
+	border: 1px solid;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.results {
+	margin-top: 10px;
+	max-height: 600px;
+	overflow-y: scroll;
+	border: 1px solid;
+}
+
+#nutritional-facts {
+	padding-top: 5px;
+}
+
+.nutritionLabel {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+
+.nutritional-placeholder {
+	width: 100%;
+	border: 1px solid;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#nutritional {
+	border: 1px solid;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.eaten-items-list {
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.selected-item {
+	background-color: aliceblue;
+}
+
+.unitQuantityBox {
+	color: deepskyblue;
+	font-weight: bold;
+}
+
+.item-name, .item-brand, .item-calories {
+	margin: 5px;
+}
+
+.item-name {
+	margin-bottom: 0;
+}
+
+.item-brand {
+	display: inline;
+}
+
+.item-calories {
+	float: right;
+	display: inline;
+}
+
+hr {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+#ud-search-items {
+	margin: 0px;
+}
+
+#eaten {
+	padding-top: 20px;
+}
+
+/* Sticky footer styles
+from: http://getbootstrap.com/examples/sticky-footer/
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+  color: #aaa;
+}
+
+/* end sticky footer */
+
+.eaten-text-placeholder {
+	margin: 10px;
+}
+
+.search-header {
+	color: skyblue;
+}
+
+.eaten-item {
+	border-top: 1px solid;
+}
+
+#list {
+	margin-bottom: 20px;
+}
+
+.eaten-text-placeholder {
+	padding-bottom: 8px;
+}
+
+.eaten-item-data {
+	display: inline-block;
+}
+
+.eaten-item-delete {
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	padding-top
+}
+
+.eaten-stats {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.total-calories {
+	display: none;
+	border-top: 1px solid;
+}
+
+.calories-counter {
+	font-color: skyblue;
+	font-size: 2em;
+}
+
+.nothing {
+	display: none;
+	padding-top: 20px;
+}
+
+/* adjusting delete button */
+.eaten-item-data {
+	max-width: 85%;
+}
+
+@media screen and (max-width: 640px){
+    .eaten-item-data {
+	max-width: 75%;
+	}
+}
+/* */
